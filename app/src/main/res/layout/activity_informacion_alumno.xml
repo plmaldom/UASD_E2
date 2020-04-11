@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionAlumno"
+    android:id="@+id/LyMainInfo"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_centerInParent="true">
+
+
+    <ImageView
+        android:id="@+id/btn_Perla"
+        android:layout_width="@dimen/image_dimen"
+        android:layout_height="@dimen/image_dimen"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/image_border"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/tv_nombre_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/alumno_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/tv_direccion_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/alumno_address"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/tv_matricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/matricula" />
+
+    <TextView
+        android:id="@+id/tv_matricula_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/alumno_matricula"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/tv_expresion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/expresion" />
+
+    <TextView
+        android:id="@+id/tv_expresion_alumno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/alumno_expresion"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

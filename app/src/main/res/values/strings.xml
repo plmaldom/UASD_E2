@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UASD_E2</string>
+    <string name="group_name">GROUPO PGL</string>
+    <string name="alumno_name">Perla Lucia Maldonado M.</string>
+    <string name="name">Nombre:</string>
+    <string name="alumno_address">Calle San Marin, No. 45, Santo Domingo, R.D.</string>
+    <string name="address">Dirección:</string>
+    <string name="matricula">Matrícula:</string>
+    <string name="alumno_matricula">100385920</string>
+    <string name="expresion">Expresión Creativa:</string>
+    <string name="alumno_expresion">Soy estudiante de término de la carrera de Licenciatura en
+        Informática de la Universidad Autónoma de Santo Domingo (UASD), tengo 21 años de edad,
+        mis hobbies son leer, compartir con amigos y ver series.</string>
+    <string name="btn_pickColor">Escoger color de fondo</string>
+    <string name="btn_pickImage">Escoger imagen de fondo</string>
+</resources>

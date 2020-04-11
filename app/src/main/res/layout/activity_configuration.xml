@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityConfiguration"
+    android:id="@+id/LyConfig"
+    android:layout_margin="@dimen/margin"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/Btn_height"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_pickColor">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/Btn_height"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_pickImage">
+    </Button>
+
+</LinearLayout>

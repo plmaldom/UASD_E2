@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="horizontal_margin">20dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="borderThickness">3dp</dimen>
+    <dimen name="imageBtn_width">150dp</dimen>
+    <dimen name="imageBtn_height">150dp</dimen>
+    <dimen name="image_dimen">200dp</dimen>
+    <dimen name="Btn_width">200dp</dimen>
+    <dimen name="Btn_height">80</dimen>
+</resources>
