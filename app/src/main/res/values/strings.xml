@@ -1,16 +1,37 @@
 <resources>
     <string name="app_name">UASD_E2</string>
-    <string name="group_name">GROUPO PGL</string>
-    <string name="alumno_name">Perla Lucia Maldonado M.</string>
+
+    <string name="group_name">GRUPO PGL</string>
+
     <string name="name">Nombre:</string>
-    <string name="alumno_address">Calle San Marin, No. 45, Santo Domingo, R.D.</string>
     <string name="address">Dirección:</string>
     <string name="matricula">Matrícula:</string>
-    <string name="alumno_matricula">100385920</string>
     <string name="expresion">Expresión Creativa:</string>
-    <string name="alumno_expresion">Soy estudiante de término de la carrera de Licenciatura en
-        Informática de la Universidad Autónoma de Santo Domingo (UASD), tengo 21 años de edad,
-        mis hobbies son leer, compartir con amigos y ver series.</string>
+
     <string name="btn_pickColor">Escoger color de fondo</string>
     <string name="btn_pickImage">Escoger imagen de fondo</string>
+
+    <string name="name_gorky">Gorky Rojas de los Santos</string>
+    <string name="name_perla">Perla Lucia Maldonado Martinez</string>
+    <string name="name_luis" >Luis Emill Mendez Matos</string>
+
+    <string name="city_gorky">Santo Domingo</string>
+    <string name="city_perla">Santo Domingo</string>
+    <string name="city_luis" >Santo Domingo</string>
+
+    <string name="id_gorky">100348921</string>
+    <string name="id_perla">100385920</string>
+    <string name="id_luis" >100313243</string>
+
+    <string name="expression_gorky">Me gusta programar.  Desde pequeño he tenido curiosidad por las
+        computadoras y pasaba todo el tiempo interactuando con ellas, descubriendo como funcionan.
+        Eventualmente comencé a interesarme en un rol más activo: quería dictar yo mismo como funciona,
+        y comencé a adentrarme en el mundo de la programación.  Actualmente soy más proficiente en
+        C#, Python, y en los lenguajes de bajo nivel C y C++.</string>
+    <string name="expression_perla">Soy estudiante de término de la carrera de Licenciatura en
+        Informática de la Universidad Autónoma de Santo Domingo (UASD), tengo 21 años de edad,
+        mis hobbies son leer, compartir con amigos y ver series.</string>
+    <string name="expression_luis">Crecí en una pequeña familia en Santo Domingo, desde pequeño
+        siempre fuí curioso y me interesé en la tecnología a los 17 años. Desde entonces he estudiado
+        esta área, explorando áreas como programación, redes y bases de datos.</string>
 </resources>

@@ -4,6 +4,7 @@
     android:id="@+id/RelativeLayoutID"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
     android:paddingLeft="@dimen/horizontal_margin"
     android:paddingRight="@dimen/horizontal_margin"
     android:paddingTop="@dimen/vertical_margin"
@@ -15,10 +16,11 @@
         android:id="@+id/tv_GroupName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
         android:text="@string/group_name"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
         android:textColor="@color/colorPrimary" />
 
     <LinearLayout
@@ -38,8 +40,8 @@
             android:layout_marginEnd="20dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:src="@drawable/avatar"
-            android:onClick="onClick"/>
+            android:src="@drawable/img_perla"
+            android:onClick="onClickToViewAlumnInfo"/>
 
         <ImageButton
             android:id="@+id/btn_Gorky"
@@ -48,8 +50,8 @@
             android:layout_marginEnd="20dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:src="@drawable/avatar"
-            android:onClick="onClick"/>
+            android:src="@drawable/img_gorky"
+            android:onClick="onClickToViewAlumnInfo"/>
 
     </LinearLayout>
 
@@ -70,8 +72,8 @@
             android:layout_marginEnd="20dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
-            android:src="@drawable/avatar"
-            android:onClick="onClick"/>
+            android:src="@drawable/img_luis"
+            android:onClick="onClickToViewAlumnInfo"/>
 
         <ImageButton
             android:id="@+id/btn_Settings"
@@ -81,7 +83,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="fitCenter"
             android:src="@drawable/settings"
-            android:onClick="onClick"/>
+            android:onClick="onClickConfigurationButton"/>
 
     </LinearLayout>
 
